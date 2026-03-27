@@ -59,10 +59,10 @@ const skillsSection = {
     emoji("Hardware & Software troubleshooting"),
     emoji(
       "Network configuration (TCP/IP, DNS, DHCP)"
-       ),
+    ),
     emoji(
       "Virtualization (Virtual Box, VmWare, Docker)"
-    ),   
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -103,18 +103,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
 
-       {
+    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
 
- {
+    {
       skillName: "Jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
-    } 
-    
-],
-    
+    }
+
+  ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -124,23 +124,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Gujarat Technological University",
+      logo: require("./assets/images/gtu.png"),
+      subHeader: "Diploma in Computer Engineering",
+      duration: "2019 - 2022",
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Kendriya Vidyalaya AFS Vadsar ",
+      logo: require("./assets/images/kvs1.png"),
+      subHeader: "SSC",
+      // duration: "September 2013 - April 2017",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -172,29 +172,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "System Administrator",
+      company: "Sigma Solve Ltd",
+      companylogo: require("./assets/images/sigma.png"),
+      date: "Nov 2025 – Present",
+      desc: "IT Support & System Administrator with experience in Windows/Linux systems, Sophos Firewall management, RDP access, server administration, Docker, Git, and network troubleshooting.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Coordinated with vendors for IT infrastructure procurement, installation, and support.",
+        "Installed and maintained Windows/Linux systems on physical and virtual machines.",
+        "Managed network infrastructure including Sophos Firewall configuration and security updates.",
+        "Handled RDP access for servers and user systems.",
+        "Administered servers and applied regular patches and updates.",
+        "Worked with Docker for basic container management.",
+        "Managed Git repositories and resolved system/network issues."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "System Administrator",
+      company: "Boutique Accounts",
+      companylogo: require("./assets/images/boutique1.png"),
+      date: "May 2024 – Aug 2025",
+      desc: "Managed IT infrastructure operations including vendor coordination, system administration (Windows/Linux), and network security. Ensured system stability, performance, and secure connectivity through regular monitoring and updates.",
+      descBullets: [
+       "Coordinated with external vendors for procurement, installation, and support of IT infrastructure.",
+       "Installed, configured, and maintained Windows and Linux systems (physical & virtual).",
+       "Managed and monitored network infrastructure, including firewall configuration.",
+       "Applied security patches and updates to ensure system protection and performance."
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u."
     }
   ]
 };
