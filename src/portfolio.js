@@ -201,11 +201,20 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u."
+      role: "Associate System Administrator",
+      company: "Brainvire",
+      companylogo: require("./assets/images/brainvire.png"),
+      date: "April 2022 – Jul 2024",
+      desc: "Handled system administration and technical support for Linux and Windows environments, ensured smooth operations through maintenance, monitoring, automation, and implementation of new technologies.",
+      descBullets: [
+        "Managed and maintained Linux & Windows workstations across the organization.",
+        "Performed system updates, user management, and applied security patches regularly.",
+        "Provided technical support for hardware and software issues.",
+        "Monitored system performance and resolved issues proactively.",
+        "Automated routine tasks using CMD to improve efficiency.",
+        "Assisted in implementing new tools and technologies.",
+
+      ]
     }
   ]
 };
