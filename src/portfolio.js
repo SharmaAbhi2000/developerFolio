@@ -194,10 +194,10 @@ const workExperiences = {
       date: "May 2024 – Aug 2025",
       desc: "Managed IT infrastructure operations including vendor coordination, system administration (Windows/Linux), and network security. Ensured system stability, performance, and secure connectivity through regular monitoring and updates.",
       descBullets: [
-       "Coordinated with external vendors for procurement, installation, and support of IT infrastructure.",
-       "Installed, configured, and maintained Windows and Linux systems (physical & virtual).",
-       "Managed and monitored network infrastructure, including firewall configuration.",
-       "Applied security patches and updates to ensure system protection and performance."
+        "Coordinated with external vendors for procurement, installation, and support of IT infrastructure.",
+        "Installed, configured, and maintained Windows and Linux systems (physical & virtual).",
+        "Managed and monitored network infrastructure, including firewall configuration.",
+        "Applied security patches and updates to ensure system protection and performance."
       ]
     },
     {
@@ -390,8 +390,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+917990965944",
+  email_address: "sa3311514@gmail.com"
 };
 
 // Twitter Section
