@@ -1,0 +1,23 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches: [master]   # change to your branch name if different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Optional: Add build/test steps here
+      # - name: Install & Test
+      #   run: |
+      #     npm ci
+      #     npm test
+
+      - name: Trigger Render Deploy
+        run: |
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
