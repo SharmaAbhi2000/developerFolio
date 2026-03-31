@@ -23,7 +23,7 @@ const greeting = {
   // username: "Saad Pasta",
   title: "Hi all, I'm Abhishek Sharma",
   subTitle: (
-    "Highly motivated and results-oriented System Administrator with 4+ years of experience in maintaining and troubleshooting various IT systems. Adept at configuring and deploying hardware and software solutions,ensuring system uptime and security. Proven ability to work independently and as part of a team to resolve technical issues efficiently. Strong analytical and problem-solving skills."
+    "Passionate DevOps Engineer & System Administrator with 4+ years of expertise in architecting, automating, and optimizing mission-critical deployments over large infrastructure. Proficient in Linux/Windows administration, CI/CD pipelines, containerization, and network security. Dedicated to ensuring high availability, performance, and seamless software delivery."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-1s4NJDP8vh1QbOOzU5otB9Rg3iHMJ7s/view?usp=drive_link", // Set to empty to hide the button
@@ -51,18 +51,12 @@ const skillsSection = {
   title: "What I do",
   subTitle: "I build, manage, and fix the systems that keep everything running",
   skills: [
-    emoji(
-      "Operating System (Windows, MacOS, Ubuntu, etc.) "
-    ),
-    emoji("User and group management (user accounts, permissions)"),
-    emoji("System administration tools ( sudo, su, systemctl, yum, apt)"),
-    emoji("Hardware & Software troubleshooting"),
-    emoji(
-      "Network configuration (TCP/IP, DNS, DHCP)"
-    ),
-    emoji(
-      "Virtualization (Virtual Box, VmWare, Docker)"
-    ),
+    emoji("⚡ Automating infrastructure deployment and configuration management"),
+    emoji("⚡ Managing and orchestrating containerized applications using Docker"),
+    emoji("⚡ Designing and building scalable CI/CD pipelines for seamless software delivery"),
+    emoji("⚡ Linux & Windows server administration, user management, and security hardening"),
+    emoji("⚡ Network architecture configuration (TCP/IP, DNS, DHCP, Firewalls, VPNs)"),
+    emoji("⚡ Proactive system monitoring, performance tuning, and hardware/software troubleshooting"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -78,41 +72,37 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-windows"
     },
     {
-      skillName: "MacOS",
-      fontAwesomeClassname: "fab fa-apple"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Ubuntu",
-      fontAwesomeClassname: "fab fa-ubuntu"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Bash",
+      fontAwesomeClassname: "fas fa-terminal"
     },
     {
       skillName: "Networking",
       fontAwesomeClassname: "fas fa-network-wired"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git"
-    },
-
-    {
-      skillName: "Jenkins",
-      fontAwesomeClassname: "fab fa-jenkins"
+      skillName: "Servers",
+      fontAwesomeClassname: "fas fa-server"
     }
-
   ],
 
   display: true // Set false to hide this section, defaults to true
@@ -148,19 +138,19 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "System Administration", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Cloud & Infrastructure",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "CI/CD & Automation",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -224,7 +214,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -257,7 +247,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -318,7 +308,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -342,7 +332,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -361,7 +351,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -374,7 +364,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -398,7 +388,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
